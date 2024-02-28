@@ -1,4 +1,27 @@
 package fr.ecole3il.rodez2023.carte.elements;
 
-public class Noeud {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Noeud<E> {
+
+    private E valeur;
+    private List<Noeud<E>> voisins;
+
+    public Noeud(E valeur) {
+        this.valeur = valeur;
+        this.voisins = new ArrayList<Noeud<E>>();
+    }
+
+    public E getValeur() {
+        return this.valeur;
+    }
+
+    public List<Noeud<E>> getVoisins() {
+        return this.voisins;
+    }
+
+    public void ajouterVoisin(Noeud<E> voisin) {
+        this.voisins.add(voisin);
+    }
 }
