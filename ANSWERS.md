@@ -6,7 +6,7 @@
 
 **Question :** Pourquoi pensez-vous que les classes `Noeud` et `Graphe` ont été définies avec des paramètres génériques ?
 
-**Réponse** : 
+**Réponse** : Pour que `Noeud` et `Graphe` puisse respectivement contenir des valeurs de n'importe quel type et contenir des noeuds contenant n'importe quel type.
 
 **Question** : Pourquoi pensez-vous que la création d'une interface est une bonne pratique dans ce contexte ?
 
