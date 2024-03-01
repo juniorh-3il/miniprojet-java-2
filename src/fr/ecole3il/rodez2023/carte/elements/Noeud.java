@@ -5,12 +5,19 @@ import java.util.List;
 
 public class Noeud<E> {
 
+    /**
+     * Valeur du nœud
+     */
     private E valeur;
+
+    /**
+     * Liste des nœuds voisins
+     */
     private List<Noeud<E>> voisins;
 
     /**
-     * Ce constructeur crée un nouvel objet Noeud avec la valeur spécifiée et initialise la liste de voisins.
-     * @param valeur La valeur attribuée au noeud
+     * Ce constructeur crée un nouvel objet <code>Noeud</code> avec la valeur spécifiée et initialise la liste de voisins.
+     * @param valeur La valeur attribuée au nœud
      */
     public Noeud(E valeur) {
         this.valeur = valeur;

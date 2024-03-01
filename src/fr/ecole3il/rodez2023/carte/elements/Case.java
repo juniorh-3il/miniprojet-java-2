@@ -5,9 +5,21 @@ package fr.ecole3il.rodez2023.carte.elements;
  * Elle permet de conserver la position (x, y) d'une tuile sur une carte.
  */
 public class Case {
-    private Tuile tuile; // La tuile associée à cette case
-    private int x; // Coordonnée x de la case sur la carte
-    private int y; // Coordonnée y de la case sur la carte
+
+    /**
+     * La tuile associée à cette case
+     */
+    private Tuile tuile;
+
+    /**
+     * Coordonnée x de la case sur la carte
+     */
+    private int x;
+
+    /**
+     * Coordonnée y de la case sur la carte
+     */
+    private int y;
 
     /**
      * Construit une nouvelle case avec la tuile spécifiée et les coordonnées (x, y) spécifiées.

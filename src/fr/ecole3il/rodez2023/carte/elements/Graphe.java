@@ -7,7 +7,15 @@ import java.util.Map;
 
 public class Graphe<E> {
 
+    /**
+     * Liste des noeuds du graphe.
+     */
     private final List<Noeud<E>> noeuds;
+
+    /**
+     * Matrice d'adjacence du graphe.
+     * @see <a href="https://fr.wikipedia.org/wiki/Matrice_d%27adjacence">Wikipedia : Matrice d'adjacence</a>
+     */
     private final Map<Integer, Map<Integer, Double>> aretes;
 
 
