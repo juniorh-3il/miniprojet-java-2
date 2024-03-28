@@ -5,6 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * La classe Graphe représente un graphe (duh!) composé de noeuds et d'arrêtes.
+ * Elle fournit des méthodes pour manipuler cex deux composantes.
+ * @param <E> Classe de la valeur des noeuds composants le graphe.
+ */
 public class Graphe<E> {
 
     /**
