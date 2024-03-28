@@ -3,6 +3,10 @@ package fr.ecole3il.rodez2023.carte.elements;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * La classe Noeud représente un noeud composant un graphe.
+ * @param <E> Classe de la valeur du noeud.
+ */
 public class Noeud<E> {
 
     /**
