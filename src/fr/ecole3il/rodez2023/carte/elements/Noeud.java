@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * La classe Noeud représente un noeud composant un graphe.
+ *
  * @param <E> Classe de la valeur du noeud.
  */
 public class Noeud<E> {
@@ -21,6 +22,7 @@ public class Noeud<E> {
 
     /**
      * Ce constructeur crée un nouvel objet <code>Noeud</code> avec la valeur spécifiée et initialise la liste de voisins.
+     *
      * @param valeur La valeur attribuée au nœud
      */
     public Noeud(E valeur) {
@@ -30,6 +32,7 @@ public class Noeud<E> {
 
     /**
      * Ajouter un nœud voisin à la liste des voisins du nœud actuel.
+     *
      * @param voisin Voisin à ajouter
      */
     public void ajouterVoisin(Noeud<E> voisin) {

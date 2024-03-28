@@ -11,6 +11,7 @@ import java.util.PriorityQueue;
 /**
  * Implémentation de l'interface <code>AlgorithmeChemin</code> et fournit une implémentation de l'algorithme de Dijkstra pour
  * trouver le chemin le plus court entre deux nœuds dans un graphe pondéré.
+ *
  * @param <E> Type des nœuds du graphe parcouru par l'algorithme
  * @see <a href="https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra">Wikipedia : Algorithme de Dijkstra</a>
  */
@@ -30,7 +31,7 @@ public class AlgorithmeDijkstra<E> implements AlgorithmeChemin<E> {
             predecesseurs.put(noeud, noeud.getVoisins());
         }
 
-         PriorityQueue<Noeud<E>> filePriorite = new PriorityQueue<Noeud<E>>();
+        PriorityQueue<Noeud<E>> filePriorite = new PriorityQueue<Noeud<E>>();
 
         return null;
     }

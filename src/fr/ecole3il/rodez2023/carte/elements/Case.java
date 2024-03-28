@@ -23,9 +23,10 @@ public class Case {
 
     /**
      * Construit une nouvelle case avec la tuile spécifiée et les coordonnées (x, y) spécifiées.
+     *
      * @param tuile La tuile associée à cette case.
-     * @param x La coordonnée x de la case sur la carte.
-     * @param y La coordonnée y de la case sur la carte.
+     * @param x     La coordonnée x de la case sur la carte.
+     * @param y     La coordonnée y de la case sur la carte.
      */
     public Case(Tuile tuile, int x, int y) {
         this.tuile = tuile;
@@ -35,6 +36,7 @@ public class Case {
 
     /**
      * Récupère la tuile associée à cette case.
+     *
      * @return La tuile associée à cette case.
      */
     public Tuile getTuile() {
@@ -43,6 +45,7 @@ public class Case {
 
     /**
      * Récupère la coordonnée x de la case sur la carte.
+     *
      * @return La coordonnée x de la case sur la carte.
      */
     public int getX() {
@@ -51,6 +54,7 @@ public class Case {
 
     /**
      * Récupère la coordonnée y de la case sur la carte.
+     *
      * @return La coordonnée y de la case sur la carte.
      */
     public int getY() {
@@ -59,6 +63,7 @@ public class Case {
 
     /**
      * Renvoie une représentation textuelle de la case sous forme de chaîne de caractères.
+     *
      * @return Une chaîne de caractères représentant la case avec sa tuile et ses coordonnées.
      */
     @Override

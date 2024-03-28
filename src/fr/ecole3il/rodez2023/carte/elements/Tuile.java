@@ -33,6 +33,7 @@ public enum Tuile {
 
     /**
      * Construit une nouvelle tuile avec la pénalité spécifiée.
+     *
      * @param penalite La pénalité de déplacement associée à la tuile.
      */
     Tuile(int penalite) {
@@ -41,6 +42,7 @@ public enum Tuile {
 
     /**
      * Récupère la pénalité de déplacement associée à la tuile.
+     *
      * @return La pénalité de déplacement associée à la tuile.
      */
     public int getPenalite() {

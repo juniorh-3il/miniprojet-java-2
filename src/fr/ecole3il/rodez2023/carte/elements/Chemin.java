@@ -15,6 +15,7 @@ public class Chemin {
 
     /**
      * Construit un nouveau chemin avec la liste de cases spécifiée.
+     *
      * @param cases La liste de cases composant le chemin.
      */
     public Chemin(List<Case> cases) {
@@ -23,12 +24,13 @@ public class Chemin {
 
     /**
      * Retourne la liste des cases composant le chemin.
+     *
      * @return La liste des cases composant le chemin.
      */
     public List<Case> getCases() {
         return cases;
     }
-    
+
     /**
      * Affiche le chemin sur la console en affichant les coordonnées et les tuiles de chaque case.
      */
