@@ -1,6 +1,6 @@
 # Miniprojet 2 - Repérage et direction sur une carte en 2D
 
-Lorem Ipsum
+Interface graphique exploitant l'algorithme de Dijkstra et A* afin d'obtenir le chemin le plus court entre deux points dans un graphe.
 
 ## Questions/Réponses
 
@@ -22,4 +22,4 @@ avec un contrat commun, permettant une meilleure réusabilité et testabilité.
 
 ## Retour personnel
 
-Lorem Ipsum
+C'est sûrement moi mais j'ai eu du mal à comprendre les étapes de l'algorithme de Dijkstra dans les consignes.
